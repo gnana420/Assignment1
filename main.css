@@ -1,0 +1,97 @@
+header {
+	background: #efefef;
+	border-bottom: 1px solid #ccc;
+	padding: 15px 0px;
+}
+
+.data {
+	background: #efefef;
+	border-right: 1px solid #ccc;
+	min-height: calc(100vh - 65px);
+	padding: 15px 15px;
+}
+
+.list-items {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+.list-items li {
+	padding: 15px 15px;
+	background: #fff;
+	border: 1px solid #ccc;
+	margin-bottom: 10px;
+	overflow: auto;
+	cursor: pointer;
+}
+
+.list-items li span,
+.list-items li label,
+.dataView span,
+.dataView label {
+	display: block;
+	font-weight: bold;
+}
+
+.imgContainer {
+	width: 80px;
+	height: 80px;
+	border: 1px solid #ccc;
+	overflow: hidden;
+	float: left;
+}
+
+.dataCotainer {
+	width: calc(100% - 80px);
+	float: left;
+	padding: 0px 15px;
+}
+
+.dataCotainer h1 {
+	font-size: 20px;
+	color: #000;
+	margin: 0px 0px 3px 0px;
+}
+
+.dataCotainer p {
+	font-size: 14px;
+	margin: 0px;
+}
+
+.imgContainer img {
+	width: 100%;
+	height: 100%;
+}
+
+.dataView {
+	padding: 15px;
+}
+
+.dataView img {
+	width: 150px;
+	height: 150px;
+	border: 1px solid #ccc;
+	margin-bottom: 10px;
+	float: left;
+}
+
+.dataView>div {
+	padding: 0px 15px;
+	width: calc(100% - 150px);
+	float: left;
+}
+
+.dataView h1 {
+	font-size: 25px;
+	color: #000;
+	margin: 0px 0px 10px 0px;
+}
+
+.dataView p {
+	font-size: 14px;
+}
+
+.activeList {
+	background: #5cb85c !important;
+}

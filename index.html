@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">       
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+</head>
+
+<body>
+    <header>
+        <form onsubmit="return filterSubmit(event)">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm-6 col-sm-offset-3">
+                        <input type="text" id="searchBar" class="form-control" onkeyup="filterList(event)">
+                    </div>
+                    <div class="col-sm-2">
+                        <input type="submit" value="Search" id="searchBtn" class="btn btn-success">
+                    </div>
+                </div>
+            </div>
+        </form>
+    </header>
+    <section>
+
+        <div class="col-sm-3 data">
+            <ul class="list-items">
+
+                <li data-title="Mis one">
+
+                    <div class="imgContainer">
+
+                        <img src="images/download.jpg" alt="">
+
+                    </div>
+
+                    <div class="dataCotainer">
+
+                        <h1>Mis One</h1>
+
+                        <span>Rated 3.5/5</span>
+
+                        <label> Relesed on 22nd May 1996</label>
+
+                        <p>
+
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy
+                            text ever since the 1500s
+
+                        </p>
+
+                    </div>
+
+                </li>
+
+                <li data-title="Mis two">
+
+                    <div class="imgContainer">
+
+                        <img src="images/download.jpg" alt="">
+
+                    </div>
+
+                    <div class="dataCotainer">
+
+                        <h1>Mis two</h1>
+
+                        <span>Rated 4/5</span>
+
+                        <label> Relesed on 1st Jan 2000</label>
+                        <p>
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy
+                            text ever since the 1500s
+
+                        </p>
+
+                    </div>
+
+                </li>
+
+                <li data-title="Vijay">
+
+                    <div class="imgContainer">
+
+                        <img src="images/download.jpg" alt="">
+
+                    </div>
+
+                    <div class="dataCotainer">
+
+                        <h1>Vijay</h1>
+
+                        <span>Rated 5/5</span>
+
+                        <label> Relesed on 5th May 2018</label>
+
+                        <p>
+
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy
+                            text ever since the 1500s
+
+                        </p>
+
+                    </div>
+
+                </li>
+
+                <li data-title="Ajith">
+
+                    <div class="imgContainer">
+
+                        <img src="images/download.jpg" alt="">
+
+                    </div>
+
+                    <div class="dataCotainer">
+
+                        <h1>Ajith</h1>
+
+                        <span>Rated 1/5</span>
+
+                        <label> Relesed on 1st Jan 2018</label>
+
+                        <p>
+
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy
+                            text ever since the 1500s
+
+                        </p>
+
+                    </div>
+
+                </li>
+
+            </ul>
+        </div>
+        <div class="col-sm-9">
+
+            <div class="dataView" id="allData">
+
+                <img src="#">
+
+                <div>
+
+                    <h1></h1>
+
+                    <span></span>
+
+                    <label></label>
+
+                    <p></p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        </div>
+
+    </section>
+</body>
+<script src="custom.js"></script>
+</html>
